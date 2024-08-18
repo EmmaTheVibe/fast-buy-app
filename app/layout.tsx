@@ -25,10 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        {/* <hr className="h-0.5 bg-gray-100 border-0"></hr> */}
-        <div className="bg-gray-951 pb-12 pt-24 relative">{children}</div>
-        <Footer />
+        <Header font={cuteFont.className} />
+        <div className={`test ${children ? "slide-up" : ""} `}>
+          <div className="back bg-gray-951 pb-12 pt-24 relative">
+            {children}
+          </div>
+        </div>
+        <Footer font={cuteFont.className} />
       </body>
     </html>
   );

@@ -8,21 +8,21 @@
   }
 
   button {
-    @apply bg-pink-300 px-7 py-2 rounded-xl text-xl shadow-xl shadow-gray-300 hover:bg-pink-500;
+    @apply bg-pink-300 px-7 py-2 rounded-xl text-xl shadow-xl  ;
   }
 
   input {
-    @apply border-2 w-full rounded-lg h-12 outline-dashed outline-green-951;
+    @apply border-2 w-full rounded-lg h-12 outline-dashed outline-gray-951 p-2;
   }
 
   textarea {
-    @apply border-2 w-full rounded-lg h-16 outline-dashed outline-green-951;
+    @apply border-2 w-full rounded-lg h-16 outline-dashed outline-gray-951 p-2;
   }
 
   header {
     padding: 16px;
-    border-bottom: 2px solid #333;
     background: hsl(345, 71%, 90%);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   }
 
   label {
@@ -34,4 +34,17 @@
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bod {
+  border: 2px solid #ececec;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.slide {
+  transform: translateY(100px);
+}
+.test{
+  transform: translateY(0);
 }

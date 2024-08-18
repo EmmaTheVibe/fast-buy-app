@@ -6,7 +6,7 @@ function SubmitButton() {
   return (
     <button
       type="submit"
-      className="bg-orange-900 hover:bg-orange-950 text-white w-full px-6 py-3 rounded-md"
+      className="bg-gray-951 hover:bg-orange-951 text-gray-952 w-full px-6 py-3 rounded-md"
       aria-disabled={pending}
     >
       {pending ? "Loading..." : "Add"}

@@ -22,7 +22,6 @@ export async function sellYourItemAction(prevState: any, formData: FormData) {
   console.log(formData.get('imageUrl'));
 
 
-    //Schema is basically what you expect for each field
   const schema = z.object({
     name: z.string().min(6),
     description: z.string().min(10),
@@ -37,7 +36,6 @@ export async function sellYourItemAction(prevState: any, formData: FormData) {
       ),
   });
 
-  //Validate the formfields using the schema rules set
   const validatedFields = schema.safeParse({
     name: formData.get('name'),
     description: formData.get('description'),
