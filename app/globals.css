@@ -8,7 +8,7 @@
   }
 
   button {
-    @apply bg-pink-300 px-7 py-2 rounded-xl text-xl shadow-xl  ;
+    @apply bg-pink-300 px-7 py-2 rounded-xl text-xl shadow-xl;
   }
 
   input {
@@ -39,12 +39,12 @@
 .bod {
   border: 2px solid #ececec;
   border-radius: 12px;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .slide {
   transform: translateY(100px);
 }
-.test{
+.test {
   transform: translateY(0);
 }
